@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Adrian-Titulos;
+    src: url("../Fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+/* Para uso de textos */
+@font-face {
+    font-family: Adrian-Texto-Fino;
+    src: url("../Fonts/Montserrat-Light.ttf") format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Adrian-Texto;
+    src: url("../Fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Adrian-Subtitulos;
+    src: url("../Fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Adrian-Titulos-Gruesos;
+    src: url("../Fonts/Montserrat-ExtraBold.ttf") format("truetype");
+    font-weight: 900;
+}
+

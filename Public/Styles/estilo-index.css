@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #002, #001);
+}
+
+.seccion-de-introduccion{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 100px;
+    text-align: center;
+    color: #ddd;
+    /* border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    border-radius: 25px; */
+}
+
+.texto-introductorio{
+    font-family: Adrian-Texto;
+    font-size: 1.3em;
+    margin-top: 0;
+    text-align: justify;
+    padding: 0 20px;
+    color: #bbb;
+}
+
+h1{
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-family: Adrian-Titulos;
+    font-size: 7em;
+    color: #0af;
+    text-shadow: 0 0 10px #3bf;
+}
+
+.seccion-de-botones{
+    padding-bottom: 30px;
+}
+
+.botones-introduccion{
+    background-color: #09c;
+    color: #003;
+    font-family: Adrian-Subtitulos;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border: none;
+    text-transform: uppercase;
+    padding: 6px 6px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #3bf;
+    text-decoration: none;
+}
+
+.sobre-la-web{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 100%;
+    height: 580px;
+    box-sizing: border-box;
+    background: url(../Img/js.jpg) top / cover fixed #fff;
+}
+
+.capa-sobre-la-web{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #000b;
+    height: 100%;
+    background: linear-gradient(to right, #002b, #002b);
+}
+
+#titulo-sobre-la-web{
+    color: #bbb;
+    font-family: Adrian-Subtitulos;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 25px 25px;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+#parrafo-sobre-la-web{
+    margin-top: 0;
+    font-family: Adrian-Texto;
+    text-align: justify;
+    color: #bbb;
+    padding: 0 25px;
+}
+
+.curso-sobre-la-web{
+    padding: 0 25px;
+    font-family: Adrian-Titulos-Gruesos;
+    margin-bottom: 10px;
+    color: #09c;
+}
+
+.parrafo-sobre-la-web-2{
+    margin-top: 6;
+    font-family: Adrian-Texto;
+    text-align: justify;
+    color: #bbb;
+    padding: 0 25px;
+    font-weight: bold;
+}
+
+/* Nuevo código aquí */
+
+.contenedor-tecnologias-sobre-la-web{
+    margin-top: 6px;
+    padding: 0 25px;
+}
+.secciones-sobre-la-web{
+    box-shadow: 0 0 5px 0 #0af;
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid #555;
+    border-radius: 10px;
+    color: #bbb;
+    font-family: Adrian-Texto;
+    text-align: left;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 50px;
+    background-color: #002;
+    background: linear-gradient(to right, #001a, #004a);
+}
+
+.imagenes-sobre-la-web{
+    width: 350px;
+    height: 200px;
+}
+
+.titulos-de-secciones{
+    text-align: center;
+    color: #ddd;
+    font-family: Adrian-Titulos;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+    font-size: 1.4em;
+    margin-bottom: 6px;
+}
+
+.parrafos-de-secciones{
+    margin-top: 6px;
+    text-align: center;
+    padding: 0 6px;
+}
