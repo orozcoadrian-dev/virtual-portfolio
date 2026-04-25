@@ -1,3 +1,5 @@
+![image alt](https://github.com/orozcoadrian-dev/virtual-portfolio/blob/28d780d6805348953f1af2545c2891d6995ed42d/portada-vp.jpg)
+
 📌 Personal Portfolio Website
 This is a static personal portfolio website built using HTML. The purpose of this project is to practice and reinforce fundamental web development concepts, focusing on clean structure, semantic elements, and user-friendly content organization.
 
