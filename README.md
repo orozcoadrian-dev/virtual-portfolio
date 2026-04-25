@@ -36,6 +36,6 @@ This project was created to:
 4. Optimize accessibility and performance
 
 --- 👨‍💻 Author ---
-Adrián Orozco
-Systems Engineering Student
-Cartagena, Colombia
+ * Adrián Orozco
+* Systems Engineering Student
+* Cartagena, Colombia
