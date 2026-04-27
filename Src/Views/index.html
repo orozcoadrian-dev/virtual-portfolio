@@ -30,8 +30,8 @@
             <a class="botones-introduccion" href="#mi-presentacion" title="¡Conocéme!"> Presentación </a> 
 
             <a class="botones-introduccion" href="#skills" title="Mis habilidades"> Skills</a>
-            <a class="botones-introduccion"> Opiniones</a>
-            <a class="botones-introduccion"> Sobre mí</a>  
+            <a class="botones-introduccion" href="#opiniones" title="Opinionesde la web"> Opiniones</a>
+            <a class="botones-introduccion" href="#preguntas-sobre-mi" title="Preguntas frecuentes"> Sobre mí</a>  
         </div>
         </div> <!-- Sección de introducción-->
 
@@ -190,5 +190,112 @@
 
         </div>
 
+        <!-- Quinto contenedor -->
+        <div id="opiniones">
+        
+        <div class="capa-opiniones">
+            <h2 class="titulo-opiniones"> ¡Déjame saber tu opinión de mi página web!</h2>
+
+            <div class="contenedor-formulario">
+
+                <form class="formulario-pv">
+                    <h2 class="titulo-formulario"> Llena los siguientes campos: </h2>
+
+                    <fieldset class="fieldets-formulario">
+                        <legend class="legends-formulario"> Datos personales</legend>
+
+                        <label for="primer-nombre" class="labels-formulario">Nombres:</label>
+                        <input type="text" id="primer-nombre" class="inputs-formulario" required placeholder="Adrián Enrique">
+
+                        <label for="apellidos" class="labels-formulario">Apellidos:</label>
+                        <input type="text" id="apellidos" class="inputs-formulario" required placeholder="Orozco Botero">
+
+                        <label for="numero-identificacion" class="labels-formulario">Número de identificación (Sin puntos):</label>
+                        <input type="number" id="numero-identificacion" class="inputs-formulario" required placeholder="1043971689">
+
+                        <label for="fecha-de-nacimiento" class="labels-formulario">Fecha de nacimiento:</label>
+                        <input type="date" id="fecha-de-nacimiento" class="inputs-formulario" required placeholder="1043971689">
+                    </fieldset>
+
+                    <!-- Datos de contacto -->
+                    <fieldset class="fieldets-formulario">
+                        <legend class="legends-formulario"> Datos de contacto</legend>
+
+                        <label for="email" class="labels-formulario">Correo electrónico:</label>
+                        <input type="email" id="email" class="inputs-formulario" required placeholder="tucorreo@dominio.com">
+
+                        <label for="telefono" class="labels-formulario">Número de teléfono:</label>
+                        <input type="number" id="telefono" class="inputs-formulario" required placeholder="+57 3008455830">
+                    </fieldset>
+
+                    <!-- Sobre  la web -->
+                    <fieldset class="fieldets-formulario">
+                        <legend class="legends-formulario"> Información de la web</legend>
+
+                        <label for="opinion" class="labels-formulario">¿Cuál es tu opinión de la web?</label>
+                        <textarea name="" id="opinion" placeholder="Lo que quieras colocar..." maxlength=180></textarea>
+
+                        <label for="como-llegaste" class="labels-formulario">¿Cómo entraste a la web?</label>
+                        <select id="como-llegaste">
+                            <option value="Null"> Sin seleccionar</option>
+                            <option value="Buscando en Google">Buscando en Google</option>
+                            <option value="QR"> con QR</option>
+                            <option value="Link">con un link</option>         
+                        </select>
+
+                        <label for="quien-recomendo" class="labels-formulario">¿Quién te recomendó la web?</label>
+                        <input type="text" id="quien-recomendo" class="inputs-formulario" list="recomendaciones">
+                        <datalist id="recomendaciones">
+                            <option value="Un amigo"></option>
+                            <option value="Redes sociales"></option>
+                            <option value="Un compañero de trabajo"></option>
+                            <option value="Un familiar"></option>
+                        </datalist>
+                    </fieldset>
+
+                    <button id="button-opiniones">ENVÍAR DATOS</button>
+
+
+                </form>
+            </div>
+    
+        </div>
+
+        </div> <!-- Fin 5to contenedor-->
+    
+        <!-- Último contenedor -->
+        <div id="preguntas-sobre-mi">
+
+        <div class="preguntas-frecuentes">
+        <h2 id="titulo-psb">PREGUNTAS FRECUENTES SOBRE MÍ</h2>
+
+        <details>
+            <summary> ¿En qué rama de la ingeniería de sistemas me pienso específicar? </summary>
+            La verdad, es una  pregunta muy buena que todos los días me pregunto, ya que estoy en una carrera tan amplía, y tan expansiva. A estas alturas, puedo considerarme que me gusta de todo un poco (fullstack), pero mayormente me enfoco en tecnologías de programación actuales como: frontend, backend y sql. Además de otros como QA o ingeniería de requisitos.
+        </details>
+
+        <details>
+            <summary> ¿Qué otras carreras o disciplinas me gustan? </summary>
+            No solo soy amante de la tecnología, también me gusta la docencia, la educación física (tanto entrenar, como yo ser quien entrena a las personas), la cocina y el diseño gráfico. También teniendo conocimiento de cada item que mencione, ejerciendo disciplinas básicas.
+        </details>
+
+        <details>
+            <summary> ¿Cuánto mido? </summary>
+            Una pregunta que me hacen frecuentemente, ya que aparanto de más por mi estatura (De 22 años o más) pero en realidad es que tengo 20 años y mido 1,83 cm.
+        </details>
+
+        <details>
+            <summary> ¿Recomiendo aprender remotamente? </summary>
+            En mi experiencia de aprendizaje propio, basado en mí, sí, lo recomiendo, ya que he podido aprender y desarrollar  habilidades de programador desde mi casa, un curso, un pc y mi cuarto. Es más cómodo y con tantas tecnologías que hay actualmente, es más fácil aprender de internet.
+        </details>
+
+        <details>
+            <summary> ¿Qué otras tecnologías quiero aprender? </summary>
+            Voy encaminado a seguir haciendo cursos, donde en estos entran: react, typescript, linux, angular, bootstrap, php, c++ y si es posible, repasar phyton.
+        </details>
+        </div>
+        </div> <!-- Último contenedor-->
+    
+    
     </body>
 </html>
