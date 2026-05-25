@@ -4,6 +4,115 @@ body {
     background: linear-gradient(to bottom, #002, #001);
 }
 
+/* --- HEADER Y NAVEGACIÓN --- */
+.header-navegacion {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(0, 2, 25, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 170, 255, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4), 0 0 15px rgba(0, 170, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.nav-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 30px;
+}
+
+.brand-logo {
+    text-decoration: none;
+    font-family: Adrian-Titulos;
+    font-size: 2.2em;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.brand-logo span {
+    color: #0af;
+    text-shadow: 0 0 10px #3bf;
+}
+
+.brand-logo:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.brand-logo:hover span {
+    text-shadow: 0 0 20px #3bf, 0 0 30px #3bf;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #bbb;
+    font-family: Adrian-Subtitulos;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 8px 0;
+    position: relative;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #0af;
+    box-shadow: 0 0 8px #3bf;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0af;
+    text-shadow: 0 0 8px #3bf;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .nav-principal {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .nav-link {
+        font-size: 0.95em;
+    }
+}
+
 .seccion-de-introduccion{
     width: 100%;
     box-sizing: border-box;
