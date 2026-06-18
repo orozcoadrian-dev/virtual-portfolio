@@ -113,18 +113,15 @@ body {
     }
 }
 
-.seccion-de-introduccion{
+.seccion_de_introduccion{
     width: 100%;
     box-sizing: border-box;
     margin-top: 100px;
     text-align: center;
     color: #ddd;
-    /* border-top: 1px solid #555;
-    border-bottom: 1px solid #555;
-    border-radius: 25px; */
 }
 
-h1 + p {
+.seccion_de_introduccion__parrafo{
     font-family: Adrian-Texto;
     font-size: 1.3em;
     margin-top: 0;
@@ -133,7 +130,7 @@ h1 + p {
     color: #bbb;
 }
 
-h1{
+.seccion_de_introduccion__titulo{
     margin-top: 25px;
     margin-bottom: 0;
     font-family: Adrian-Titulos;
@@ -142,19 +139,17 @@ h1{
     text-shadow: 0 0 10px #3bf;
 }
 
-h1:hover
+.seccion_de_introduccion__titulo:hover
 {
     letter-spacing: 0.1em;
     transition: 3s ease;
 }
 
-
-
-.seccion-de-botones{
+.seccion_de_introduccion__div_botones{
     padding-bottom: 30px;
 }
 
-div > .botones-introduccion{
+.seccion_de_introduccion__boton{
     background-color: #09c;
     color: #003;
     font-family: Adrian-Subtitulos;
@@ -169,14 +164,14 @@ div > .botones-introduccion{
     text-decoration: none;
 }
 
-.botones-introduccion:hover 
+.seccion_de_introduccion__boton:hover 
 {
     background-color: #003;
     color: #09c;
     box-shadow: 0 0 20px 3px #0af;
 }
 
-.sobre-la-web{
+.seccion_sobre_la_web{
     border: 1px solid transparent;
     border-radius: 20px;
     margin-top: 100px;
@@ -186,7 +181,7 @@ div > .botones-introduccion{
     background: url(../Img/js.jpg) top / cover fixed #fff;
 }
 
-.capa-sobre-la-web{
+.seccion_sobre_la_web__div_layout{
     border: 1px solid transparent;
     border-radius: 20px;
     background-color: #000b;
@@ -194,7 +189,7 @@ div > .botones-introduccion{
     background: linear-gradient(to right, #002b, #002b);
 }
 
-#titulo-sobre-la-web{
+.seccion_sobre_la_web__titulo{
     color: #bbb;
     font-family: Adrian-Subtitulos;
     text-align: left;
@@ -205,7 +200,7 @@ div > .botones-introduccion{
     margin-bottom: 0;
 }
 
-#parrafo-sobre-la-web{
+.seccion_sobre_la_web__parrafo{
     margin-top: 0;
     font-family: Adrian-Texto;
     text-align: justify;
@@ -213,29 +208,26 @@ div > .botones-introduccion{
     padding: 0 25px;
 }
 
-.curso-sobre-la-web{
+.seccion_sobre_la_web__link{ 
     padding: 0 25px;
     font-family: Adrian-Titulos-Gruesos;
     margin-bottom: 10px;
     color: #09c;
 }
 
-.parrafo-sobre-la-web-2{
-    margin-top: 6;
-    font-family: Adrian-Texto;
-    text-align: justify;
-    color: #bbb;
-    padding: 0 25px;
+.parrafo--tecnologias{
+    margin-top: 6px;
     font-weight: bold;
 }
 
 /* Nuevo código aquí */
 
-.contenedor-tecnologias-sobre-la-web{
+.secciones_sobre_la_web__div_tecnologias_web{
     margin-top: 6px;
     padding: 0 25px;
 }
-.secciones-sobre-la-web{
+
+.seccion_sobre_la_web__tarjeta{
     box-shadow: 0 0 5px 0 #0af;
     width: 350px;
     border: none;
@@ -251,19 +243,18 @@ div > .botones-introduccion{
     background: linear-gradient(to right, #001a, #004a);
 }
 
-.secciones-sobre-la-web:hover
+.seccion_sobre_la_web__tarjeta:hover
 {
     box-shadow: 0 0 20px 3px #0af;
 }
 
-.imagenes-sobre-la-web{
+.seccion_sobre_la_web__imagen{
     width: 350px;
     height: 200px;
 }
 
-.titulos-de-secciones{
+.titulo--tarjeta{
     text-align: center;
-    color: #ddd;
     font-family: Adrian-Titulos;
     text-decoration: underline;
     letter-spacing: 0.1em;
@@ -271,7 +262,7 @@ div > .botones-introduccion{
     margin-bottom: 6px;
 }
 
-.parrafos-de-secciones{
+.parrafo--tarjeta{
     margin-top: 6px;
     text-align: center;
     padding: 0 6px;
