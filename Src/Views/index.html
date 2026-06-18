@@ -33,9 +33,10 @@
 
     <main>
 
-        <div class="seccion-de-introduccion">
-            <h1>MI PORTAFOLIO WEB</h1>
-            <p class="texto-introductorio"> ¡Hola! Bienvenido a mi portafolio virtual. Aquí podrás conocer mis
+
+        <section class="seccion_de_introduccion">
+            <h1 class="seccion_de_introduccion__titulo">MI PORTAFOLIO WEB</h1>
+            <p class="seccion_de_introduccion__parrafo"> ¡Hola! Bienvenido a mi portafolio virtual. Aquí podrás conocer mis
                 habilidades, ver algunos de los proyectos en los que he trabajado y encontrar distintas formas de
                 contacto. También comparto un poco sobre mí y mi proceso de aprendizaje.
                 <br>
@@ -44,81 +45,79 @@
                 tu opinión para seguir mejorando.
             </p>
 
-            <div class="seccion-de-botones">
+            <div class="seccion_de_introduccion__div_botones">
 
-                <a class="botones-introduccion" href="#sobre-la-web" title="Información de esta página web"> Curso
+                <a class="seccion_de_introduccion__boton" href="#sobre-la-web" title="Información de esta página web"> Curso
                     disponible</a>
-                <a class="botones-introduccion" href="#mi-presentacion" title="¡Conocéme!"> Mis datos </a>
 
-                <a class="botones-introduccion" href="#skills" title="Mis habilidades"> IDE y Tecnologías</a>
-                <a class="botones-introduccion" href="#opiniones" title="Formulario"> Formulario</a>
-                <a class="botones-introduccion" href="#preguntas-sobre-mi" title="Resolver dudas"> Resolver dudas</a>
+                <a class="seccion_de_introduccion__boton" href="#mi-presentacion" title="¡Conocéme!"> Mis datos </a>
+
+                <a class="seccion_de_introduccion__boton" href="#skills" title="Mis habilidades"> IDE y Tecnologías</a>
+
+                <a class="seccion_de_introduccion__boton href="#opiniones" title="Formulario"> Formulario</a>
+
+                <a class="seccion_de_introduccion__boton" href="#preguntas-sobre-mi" title="Resolver dudas"> Resolver dudas</a>
             </div>
-        </div> <!-- Sección de introducción-->
+        </section>
 
         <!-- Segundo contenedor -->
-        <div class="sobre-la-web" id="sobre-la-web">
-            <div class="capa-sobre-la-web">
-                <h2 id="titulo-sobre-la-web"> ¿POR QUÉ ESTA WEB? </h2>
-                <p id="parrafo-sobre-la-web"> Nace de una noche donde entendí que los conocimientos no se ejercen
+        <section class="seccion_sobre_la_web" id="seccion_sobre_la_web">
+
+            <div class="seccion_sobre_la_web__div_layout">
+                <h2 class="seccion_sobre_la_web__titulo"> ¿POR QUÉ ESTA WEB? </h2>
+                <p class="seccion_sobre_la_web__parrafo"> Nace de una noche donde entendí que los conocimientos no se ejercen
                     aprendiendo más, o realizando ejercicios básicos, el conocimiento nace cuando aplico lo que sé en un
                     proyecto real, por eso, está página web contiene todo lo que he aprendido en cursos.
                 </p>
 
                 <a href="https://www.youtube.com/watch?v=ELSm-G201Ls" title="Curso de HTML, Soy Dalto"
-                    class="curso-sobre-la-web" target="_blank"> Curso donde he aprendido todo sobre páginas web. </a>
+                    class="seccion_sobre_la_web__link" target="_blank"> Curso donde he aprendido todo sobre páginas web. </a>
 
-                <p class="parrafo-sobre-la-web-2"> Tecnologías que usé aquí:</p>
+                <p class="seccion_sobre_la_web__parrafo parrafo--tecnologias"> Tecnologías que usé aquí:</p>
 
-
-                <!-- Div de secciones -->
-                <div class="contenedor-tecnologias-sobre-la-web">
+                <div class="seccion_sobre_la_web__div_tecnologias_web">
 
                     <!-- Sección 1 -->
-                    <section class="secciones-sobre-la-web">
+                    <section class="seccion_sobre_la_web__tarjeta">
                         <div>
-                            <img src="../../Public/Img/html.jpg" alt="HTML" class="imagenes-sobre-la-web">
+                            <img src="../../Public/Img/html.jpg" alt="HTML" class="seccion_sobre_la_web__imagen">
                         </div>
 
                         <div>
-                            <h3 class="titulos-de-secciones"> HTML</h3>
-                            <p class="parrafos-de-secciones"> Este lenguaje de marcado se usó para darle la estructura a
+                            <h3 class=".seccion_sobre_la_web__titulo titulo--tarjeta"> HTML</h3>
+                            <p class="seccion_sobre_la_web_parrafo parrafo--tarjeta"> Este lenguaje de marcado se usó para darle la estructura a
                                 la web.</p>
                         </div>
                     </section>
 
                     <!-- Sección 2 -->
-                    <section class="secciones-sobre-la-web">
+                    <section class="seccion_sobre_la_web__tarjeta">
                         <div>
-                            <img src="../../Public/Img/css.png" alt="CSS" class="imagenes-sobre-la-web">
+                            <img src="../../Public/Img/css.png" alt="CSS" class="seccion_sobre_la_web__imagen">
                         </div>
 
                         <div>
-                            <h3 class="titulos-de-secciones"> CSS</h3>
-                            <p class="parrafos-de-secciones"> Esta tecnología se usó para darle el estilo y la estética
+                            <h3 class=".seccion_sobre_la_web__titulo titulo--tarjeta"> CSS</h3>
+                            <p class="seccion_sobre_la_web_parrafo parrafo--tarjeta"> Esta tecnología se usó para darle el estilo y la estética
                                 a la página web.</p>
                         </div>
                     </section>
 
                     <!-- Sección 3 -->
-                    <section class="secciones-sobre-la-web">
+                    <section class="seccion_sobre_la_web__tarjeta">
                         <div>
-                            <img src="../../Public/Img/javascript.jpg" alt="HTML" class="imagenes-sobre-la-web">
+                            <img src="../../Public/Img/javascript.jpg" alt="HTML" class="seccion_sobre_la_web__imagen">
                         </div>
 
                         <div>
-                            <h3 class="titulos-de-secciones"> JavaScript</h3>
-                            <p class="parrafos-de-secciones"> Este lenguaje de programación fue utilizado para darle
+                            <h3 class=".seccion_sobre_la_web__titulo titulo--tarjeta"> JavaScript</h3>
+                            <p class="seccion_sobre_la_web_parrafo parrafo--tarjeta"> Este lenguaje de programación fue utilizado para darle
                                 dinamismo a la web.</p>
                         </div>
                     </section>
-
-                </div> <!-- Fin de div de secciones-->
-
-
+                </div>
             </div>
-
-        </div> <!-- Fin del div sobre la web-->
+        </section>
 
         <!-- Tercer contenedor -->
         <div id=mi-presentacion>
