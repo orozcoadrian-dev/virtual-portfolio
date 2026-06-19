@@ -32,8 +32,6 @@
     </header>
 
     <main>
-
-
         <section class="seccion_de_introduccion">
             <h1 class="seccion_de_introduccion__titulo">MI PORTAFOLIO WEB</h1>
             <p class="seccion_de_introduccion__parrafo"> ¡Hola! Bienvenido a mi portafolio virtual. Aquí podrás conocer mis
@@ -60,7 +58,7 @@
             </div>
         </section>
 
-        <!-- Segundo contenedor -->
+        <!-- Segunda sección -->
         <section class="seccion_sobre_la_web" id="seccion_sobre_la_web">
 
             <div class="seccion_sobre_la_web__div_layout">
@@ -77,63 +75,60 @@
 
                 <div class="seccion_sobre_la_web__div_tecnologias_web">
 
-                    <!-- Sección 1 -->
+                    <!-- CSS + HTML + JS -->
                     <section class="seccion_sobre_la_web__tarjeta">
                         <div>
-                            <img src="../../Public/Img/html.jpg" alt="HTML" class="seccion_sobre_la_web__imagen">
+                            <img src="../../Public/Img/css-html-js.jpeg" alt="CSS - HTML - CSS" class="seccion_sobre_la_web__imagen" title="CSS + HTML + Javascript">
                         </div>
 
                         <div>
-                            <h3 class=".seccion_sobre_la_web__titulo titulo--tarjeta"> HTML</h3>
-                            <p class="seccion_sobre_la_web_parrafo parrafo--tarjeta"> Este lenguaje de marcado se usó para darle la estructura a
-                                la web.</p>
+                            <h3 class=".seccion_sobre_la_web__titulo titulo--tarjeta"> CSS + HTML + JAVASCRIPT</h3>
+                            <p class="seccion_sobre_la_web_parrafo parrafo--tarjeta"> Contrucción completa de la página web, estructura, SEO, estilo y dinamismo.</p>
                         </div>
                     </section>
 
-                    <!-- Sección 2 -->
+                    <!-- BEM -->
                     <section class="seccion_sobre_la_web__tarjeta">
                         <div>
-                            <img src="../../Public/Img/css.png" alt="CSS" class="seccion_sobre_la_web__imagen">
+                            <img src="../../Public/Img/metodologia-bem.jpg" alt="Metodología BEM" class="seccion_sobre_la_web__imagen" title="Metedología BEM">
                         </div>
 
                         <div>
-                            <h3 class=".seccion_sobre_la_web__titulo titulo--tarjeta"> CSS</h3>
-                            <p class="seccion_sobre_la_web_parrafo parrafo--tarjeta"> Esta tecnología se usó para darle el estilo y la estética
-                                a la página web.</p>
+                            <h3 class=".seccion_sobre_la_web__titulo titulo--tarjeta"> Metodología BEM</h3>
+                            <p class="seccion_sobre_la_web_parrafo parrafo--tarjeta"> Forma de trabajo implementada para dar estilos de forma jerárquica a la web.</p>
                         </div>
                     </section>
 
-                    <!-- Sección 3 -->
+                    <!-- Responsive Design -->
                     <section class="seccion_sobre_la_web__tarjeta">
                         <div>
-                            <img src="../../Public/Img/javascript.jpg" alt="HTML" class="seccion_sobre_la_web__imagen">
+                            <img src="../../Public/Img/responsive-design.jpg" alt="Responsive Design" class="seccion_sobre_la_web__imagen" title="Diseño responsive">
                         </div>
 
                         <div>
-                            <h3 class=".seccion_sobre_la_web__titulo titulo--tarjeta"> JavaScript</h3>
-                            <p class="seccion_sobre_la_web_parrafo parrafo--tarjeta"> Este lenguaje de programación fue utilizado para darle
-                                dinamismo a la web.</p>
+                            <h3 class=".seccion_sobre_la_web__titulo titulo--tarjeta"> Responsive Design</h3>
+                            <p class="seccion_sobre_la_web_parrafo parrafo--tarjeta"> Estándar para realizar una página web funcional (En proceso).</p>
                         </div>
                     </section>
                 </div>
             </div>
         </section>
 
-        <!-- Tercer contenedor -->
-        <div id=mi-presentacion>
+        <!-- Tercera sección -->
+        <section class="seccion_mi_presentacion" id="seccion_mi_presentacion">
 
-            <div class="tarjeta-de-presentacion">
+            <div class="secccion_mi_presentacion__tarjeta_presentacion">
 
-                <div class="encabezado-tp">
-                    <h2 class="titulo-tp" id="titulo-tp" onclick="invertName()"> Orozco Botero Adrián Enrique</h2>
+                <div class="seccion_mi_presentacion__encabezado">
+                    <h2 class="seccion_mi_presentacion__titulo" id="seccion_mi_presentacion__titulo" onclick="invertName()"> Orozco Botero Adrián Enrique</h2>
                 </div> 
 
-                <div class="foto-tp">
-                    <img src="../../Public/Img/foto2.jpeg" alt="Adrián Orozco" title="Yo" class="contenedor-imagen-tp" id="contenedor-imagen-tp" onclick="correctName()">   
+                <div class="seccion_mi_presentacion__contenedor_foto">
+                    <img src="../../Public/Img/foto2.jpeg" alt="Adrián Orozco" title="Orozco Adrián" class="seccion_mi_presentacion__foto" id="seccion_mi_presentacion__foto" onclick="correctName()">   
                 </div>
 
-                <div class="descripcion-tp">
-                    <p>
+                <div>
+                    <p class="seccion_mi_presentacion__parrafo">
                         ¡Hey! Soy un joven de 20 años, nacido en Cartagena de Indias, Colombia. Actualmente soy
                         estudiante de la Fundación Universitaria Colombo Internacional (Unicolombo), donde me formo en
                         Ingeniería de Sistemas y estudio inglés británico, combinando la tecnología con el crecimiento
@@ -156,80 +151,73 @@
                     </p>
                 </div>
             </div>
+        </section>
 
+        <!-- Cuarta sección -->
+        <section class="seccion_mis_skills">
 
-        </div>
+            <h2 class="seccion_mis_skills__titulo"> TECNOLOGÍAS QUE MANEJO: </h2>
 
-        <!-- Cuarto contenedor -->
-        <div id="skills">
+            <div class="seccion_mis_skills__contenedor_secciones">
 
-            <h2 id="titulo-skills"> ¿Cuáles son mis habilidades?</h2>
-
-            <div class="contenedor-secciones-skills">
-
-                <!-- Sección 1 -->
-                <section class="secciones-de-mis-skills">
+                <!-- HTML 5 - CSS3 -->
+                <section class="seccion_mis_skills_tarjeta">
 
                     <div>
-                        <img src="../../Public/Img/tecnologiasweb.jpeg" alt="Desarrollo web" class="imagenes-skills"
-                            title="Desarrollo Web">
+                        <img src="../../Public/Img/html-css.jpg" alt="HTML5 - CSS3" class="seccion_mis_skills__imagen"
+                            title="HTML5 - CSS3">
                     </div>
 
                     <div>
-                        <h3 class="titulos-skills"> CSS + HTML + JavaScript </h3>
-                        <p class="parrafos-skills"> Estoy realizando cursos sobre las 3 tecnologías, con sus respectivos
-                            fundamentos. </p>
+                        <h3 class="seccion_mis_skills__titulo titulo--tarjeta"> CSS + HTML </h3>
+                        <p class="seccion_mis_skills__parrafo"> Estructuras web eficientes, con una excelente indexación en motores de búsqueda y una experiencia de usuario fluida en cualquier dispositivo. </p>
                     </div>
                 </section>
 
-                <!-- Sección 2 -->
-                <section class="secciones-de-mis-skills">
+                <!-- JAVASCRIPT -->
+                <section class="seccion_mis_skills_tarjeta">
 
                     <div>
-                        <img src="../../Public/Img/java.png" alt="Java" title="Java" class="imagenes-skills">
+                        <img src="../../Public/Img/javascript.jpg" alt="Javascript" title="Javascript" class="seccion_mis_skills__imagen">
                     </div>
 
                     <div>
-                        <h3 class="titulos-skills"> Java </h3>
-                        <p class="parrafos-skills"> He visto este lenguaje de programación durante 2 años, vi
-                            fundamentos, POO, etc. </p>
+                        <h3 class="seccion_mis_skills__titulo titulo--tarjeta"> javascript </h3>
+                        <p class="seccion_mis_skills__parrafo"> Enfoque en el dominio de su lógica fundamental, estructura del lenguaje y el uso de funciones flecha para escribir código moderno, limpio y eficiente </p>
                     </div>
                 </section>
 
                 <!-- Sección 3 -->
-                <section class="secciones-de-mis-skills">
+                <section class="seccion_mis_skills_tarjeta">
 
                     <div>
-                        <img src="../../Public/Img/node.png" alt="Node js" title="Node  js" class="imagenes-skills">
+                        <img src="../../Public/Img/java.png" alt="Java" title="Java" class="seccion_mis_skills__imagen">
                     </div>
 
                     <div>
-                        <h3 class="titulos-skills"> Node Js </h3>
-                        <p class="parrafos-skills"> Sigo en progreso, sin embargo, tengo ya fundamentos y los primeros
-                            pasos de este entorno.</p>
+                        <h3 class="seccion_mis_skills__titulo titulo--tarjeta"> Java </h3>
+                        <p class="seccion_mis_skills__parrafo"> Sólida base en los fundamentos del lenguaje, dominio de su sintaxis y aplicación de los pilares de la Programación Orientada a Objetos en proyectos</p>
                     </div>
                 </section>
 
                 <!-- Sección 4 -->
-                <section class="secciones-de-mis-skills">
+                <section class="seccion_mis_skills_tarjeta">
 
                     <div>
-                        <img src="../../Public/Img/sql.png" alt="SQL" title="SQL" class="imagenes-skills">
+                        <img src="../../Public/Img/sql.png" alt="SQL" title="SQL" class="seccion_mis_skills__imagen">
                     </div>
 
                     <div>
-                        <h3 class="titulos-skills"> SQL </h3>
-                        <p class="parrafos-skills"> Sé la parte conceptual, modelos y manejo gestores de bases de datos
-                            como MySQL y SQLite.</p>
+                        <h3 class="seccion_mis_skills__titulo titulo--tarjeta"> SQL </h3>
+                        <p class="seccion_mis_skills__parrafo">Gestión y diseño de bases de datos con MySQL y SQLite, con capacidad para estructurar consultas eficientes y modelar diagramas entidad-relación.</p>
                     </div>
                 </section>
 
 
             </div>
+        </section>
 
-        </div>
-
-        <!-- Quinto contenedor -->
+        <!-- Quinta sección -->
         <div id="opiniones">
 
             <div class="capa-opiniones">
@@ -310,7 +298,7 @@
 
         </div> <!-- Fin 5to contenedor-->
 
-        <!-- Último contenedor -->
+        <!-- Sexta sección -->
         <div id="preguntas-sobre-mi">
 
             <div class="preguntas-frecuentes">
@@ -351,10 +339,6 @@
                 </details>
             </div>
         </div> <!-- Último contenedor-->
-
-
-
-
     </main>
 
 

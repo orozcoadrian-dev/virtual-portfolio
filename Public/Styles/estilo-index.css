@@ -268,14 +268,14 @@ body {
     padding: 0 6px;
 }
 
-#mi-presentacion{
+.seccion_mi_presentacion{
     padding: 6px 0;
     margin-top: 50px;
     box-sizing: border-box;
     background-color: #002;
 }
 
-.tarjeta-de-presentacion{
+.secccion_mi_presentacion__tarjeta_presentacion{
     width: 85%;
     margin: 20px 25px 20px 105px;
     border: 1px solid #003;
@@ -285,7 +285,7 @@ body {
 }
 
 /* Dentro de la tarjeta */
-.titulo-tp{
+.seccion_mi_presentacion__titulo{
     color: #0af;
     text-shadow: 0 0 10px #3bf;
     text-transform: uppercase;
@@ -296,29 +296,29 @@ body {
     letter-spacing: 0.1em;
 }
 
-.titulo-tp:hover
+.seccion_mi_presentacion__titulo:hover
 {
     background-color: #0af;
     color: #003;
 }
 
-.encabezado-tp{
+.seccion_mi_presentacion__encabezado{
     margin: 0;
     background: #004;
 }
 
-.foto-tp{
+.seccion_mi_presentacion__contenedor_foto{
     margin-top: 0;
     background-color: #003;
     padding: 25px 0;
 }
 
-.contenedor-imagen-tp:hover
+.seccion_mi_presentacion__foto:hover
 {
     box-shadow: 0 0 20px 3px #005;
 }
 
-.contenedor-imagen-tp{
+.seccion_mi_presentacion__foto{
     width: 250px;
     height: 360px;
     border-radius: 80px;
@@ -326,7 +326,7 @@ body {
     box-shadow: 0 0 10px 0 #004;
 }
 
-.descripcion-tp{
+.seccion_mi_presentacion__parrafo{
     color: #ddd;
     font-family: Adrian-Texto;
     text-align: justify;
@@ -338,7 +338,7 @@ body {
     /* border: 1px solid blue; */
 }
 
-#skills{
+.seccion_mis_skills{
     margin-top: 25px;
     box-sizing: border-box;
     width: 100%;
@@ -347,12 +347,12 @@ body {
     padding: 10px 4px;
 }
 
-.contenedor-secciones-skills{
+.seccion_mis_skills__contenedor_secciones{
     box-sizing: border-box;
     margin: 25px;
 }
 
-#titulo-skills{
+.seccion_mis_skills__titulo{
     font-family: Adrian-Titulos;
     color: #bbb;
     padding: 0 25px;
@@ -361,38 +361,36 @@ body {
     letter-spacing: 0.1em;
 }
 
-.secciones-de-mis-skills{
+.seccion_mis_skills_tarjeta{
     width: 300px;
     box-sizing: border-box;
     display: inline-block;
+    vertical-align: top;
     background-color: #004;
-    margin: 10px 0px 10px 6.6px;
+    margin: 10px 4px 10px 35px;
     border: 1px solid transparent;
     border-radius: 20px;
     box-shadow: 0 0 10px 0 #005;
 }
 
-.secciones-de-mis-skills:hover
+.seccion_mis_skills_tarjeta:hover
 {
     box-shadow: 0 0 20px 3px #0af;
 }
 
-.imagenes-skills{
+.seccion_mis_skills__imagen{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 300px;
     height: 150px;
 }
 
-.titulos-skills{
-    color: #bbb;
-    font-family: Adrian-Titulos;
+.titulo--tarjeta{
     text-align: center;
     font-size: 1.4em;
-    letter-spacing: 0.1em;
 }
 
-.parrafos-skills{
+.seccion_mis_skills__parrafo{
     font-family: Adrian-Texto;
     color: #ddd;
     text-align: justify;
