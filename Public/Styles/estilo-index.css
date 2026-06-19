@@ -207,17 +207,15 @@ body {
 
 .seccion_sobre_la_web{
     border: 1px solid transparent;
-    border-radius: 20px;
     margin-top: 100px;
     width: 100%;
-    height: 580px;
+    height: 700px;
     box-sizing: border-box;
-    background: url(../Img/js.jpg) top / cover fixed #fff;
+    background: url(../Img/layout-code.jpg) top / cover fixed #fff;
 }
 
 .seccion_sobre_la_web__div_layout{
     border: 1px solid transparent;
-    border-radius: 20px;
     background-color: #000b;
     height: 100%;
     background: linear-gradient(to right, #002b, #002b);
@@ -229,28 +227,34 @@ body {
     text-align: left;
     text-transform: uppercase;
     text-decoration: underline;
-    padding: 25px 25px;
+    padding: 25px 1em;
     font-size: 2em;
     margin-bottom: 0;
 }
+
 
 .seccion_sobre_la_web__parrafo{
     margin-top: 0;
     font-family: Adrian-Texto;
     text-align: justify;
     color: #bbb;
-    padding: 0 25px;
+    padding: 0 2em;
+}
+
+.parrafo-contexto::first-letter{
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .seccion_sobre_la_web__link{ 
-    padding: 0 25px;
+    padding: 0 2em;
     font-family: Adrian-Titulos-Gruesos;
     margin-bottom: 10px;
     color: #09c;
 }
 
 .parrafo--tecnologias{
-    margin-top: 6px;
+    margin-top: 1em;
     font-weight: bold;
 }
 
@@ -334,6 +338,12 @@ body {
 {
     background-color: #0af;
     color: #003;
+    cursor: pointer;
+}
+
+.seccion_mi_presentacion__titulo:active
+{
+    cursor: none;
 }
 
 .seccion_mi_presentacion__encabezado{
@@ -342,9 +352,10 @@ body {
 }
 
 .seccion_mi_presentacion__contenedor_foto{
-    margin-top: 0;
-    background-color: #003;
+    margin: 0 1em 0 2em;
     padding: 25px 0;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .seccion_mi_presentacion__foto:hover
@@ -356,7 +367,6 @@ body {
     width: 250px;
     height: 360px;
     border-radius: 80px;
-    margin-left: 430px;
     box-shadow: 0 0 10px 0 #004;
 }
 
