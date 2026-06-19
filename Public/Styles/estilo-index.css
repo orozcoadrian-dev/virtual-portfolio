@@ -126,7 +126,7 @@ body {
     font-size: 1.3em;
     margin-top: 0;
     text-align: justify;
-    padding: 0 20px;
+    padding: 0 2em;
     color: #bbb;
 }
 
@@ -137,6 +137,7 @@ body {
     font-size: 7em;
     color: #0af;
     text-shadow: 0 0 10px #3bf;
+    letter-spacing: 0.05em;
 }
 
 .seccion_de_introduccion__titulo:hover
@@ -146,6 +147,7 @@ body {
 }
 
 .seccion_de_introduccion__div_botones{
+    margin-top: 4em;
     padding-bottom: 30px;
 }
 
@@ -153,22 +155,54 @@ body {
     background-color: #09c;
     color: #003;
     font-family: Adrian-Subtitulos;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    font-size: 1.2em;
+    margin: 0 0em 1em 3em;
+    font-size: 1.3em;
     border: none;
     text-transform: uppercase;
-    padding: 6px 6px;
+    padding: 1em;
     border-radius: 10px;
     box-shadow: 0 0 10px #3bf;
     text-decoration: none;
 }
+
 
 .seccion_de_introduccion__boton:hover 
 {
     background-color: #003;
     color: #09c;
     box-shadow: 0 0 20px 3px #0af;
+}
+
+.boton--instagram:hover
+{
+    background-color: #0B0214;
+    color: #833AB4;
+    text-shadow: 0 0 20px #F77737;
+    box-shadow: 0 0 20px 3px #E1306C;
+}
+
+.boton--email:hover
+{
+    background-color: #040814;
+    color: #FBBC04;
+    text-shadow: 0 0 10px #4285F4;
+    box-shadow: 0 0 20px 3px #EA4335;
+}
+
+.boton--git:hover
+{
+    background-color: #0B0604;
+    color: #F0EFE7;
+    text-shadow: 0 0 10px #F14E32;
+    box-shadow: 0 0 20px 3px #F0EFE7;
+}
+
+.boton--facebook:hover
+{
+    background-color: #020A14;
+    color: #1877F2;
+    text-shadow: 0 0 10px #3B5998;
+    box-shadow: 0 0 20px 3px #F0F2F5;
 }
 
 .seccion_sobre_la_web{
@@ -237,8 +271,8 @@ body {
     font-family: Adrian-Texto;
     text-align: left;
     display: inline-block;
-    margin-right: 15px;
-    margin-left: 40px;
+    margin-right: 3.5em;
+    margin-left: 4.5em;
     background-color: #002;
     background: linear-gradient(to right, #001a, #004a);
 }
