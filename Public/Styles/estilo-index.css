@@ -313,6 +313,12 @@ body {
     background-color: #002;
 }
 
+.seccion_mi_presentacion::selection
+{
+    background-color: #09c;
+    color: #444;
+}
+
 .secccion_mi_presentacion__tarjeta_presentacion{
     width: 85%;
     margin: 20px 25px 20px 105px;
@@ -445,7 +451,7 @@ body {
 .seccion_opiniones{
     width: 100%;
     height: 1400px;
-    background: url(../Img/seccion-formulario-background.jpg) top / cover fixed #fff;
+    background: url(../Img/seccion-opiniones-background.jpg) top / cover fixed #fff;
     box-sizing: border-box;
     margin-top: 400px;
 }
@@ -502,7 +508,7 @@ body {
     text-transform: uppercase;
 }
 
-.inputs-formulario, textarea{
+.seccion_opiniones__input, .seccion_opiniones__textarea{
     width: 95%;
     padding: 10px 10px;
     background-color: transparent;
@@ -512,20 +518,27 @@ body {
     border-left: 1px solid #aaa;
     font-family: Adrian-Texto;
     color: #aaa;
-    margin: 6px 15px 25px 15px;
+    margin: 0.2em 15px 25px 15px;
 }
 
-#email:valid
+.seccion_opiniones__label{
+    color: #aaa;
+    font-family: Adrian-Subtitulos;
+    font-size: 0.9em;
+    padding: 0 1em;
+}
+
+.input--email:valid
 {
     color: #aaa; 
 }
 
-#email:invalid
+.input--email:invalid
 {
     color: #eb655b;
 }
 
-#button-opiniones{
+.seccion_opiniones__boton{
     width: 90%;
     padding: 10px 10px;
     background-color: #001a;
@@ -540,14 +553,14 @@ body {
     box-shadow: 0 0 5px 0 #ededed55;
 }
 
-#button-opiniones:hover 
+.seccion_opiniones__boton:hover 
 {
     background-color: #09c;
     color: #003;
     box-shadow: 0 0 20px 3px #003;
 }
 
-select{
+.seccion_opiniones__select{
     width: 95%;
     padding: 10px 10px;
     background-color: #001a;
@@ -561,16 +574,11 @@ select{
 }
 
 
-textarea{
+.seccion_opiniones__textarea{
     resize: none;
 }
 
-.labels-formulario{
-    color: #aaa;
-    font-family: Adrian-Subtitulos;
-    font-size: 0.9em;
-    padding: 0 20px;
-}
+
 
 #preguntas-sobre-mi{
     margin-top: 100px;
