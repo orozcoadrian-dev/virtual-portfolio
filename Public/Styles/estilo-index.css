@@ -573,21 +573,18 @@ body {
     margin: 6px 15px 25px 15px;
 }
 
-
 .seccion_opiniones__textarea{
     resize: none;
 }
 
-
-
-#preguntas-sobre-mi{
+.seccion_preguntas_sobre_mi{
     margin-top: 100px;
     width: 100%;
     height: 550px;
     background-color: #002;
 }
 
-#titulo-psb{
+.seccion_preguntas_sobre_mi__titulo{
     font-family: Adrian-Titulos;
     color: #bbb;
     padding: 25px 25px;
@@ -598,7 +595,7 @@ body {
     text-decoration: underline;
 }
 
-.preguntas-frecuentes{
+.seccion_preguntas_sobre_mi__preguntas{
     width: 95%;
     height: 530px;
     border: 1px solid #004;
@@ -607,7 +604,7 @@ body {
     border-radius: 10px;
 }
 
-details {
+.seccion_preguntas_sobre_mi__details{
     font-family: Adrian-Texto;
     color: #bbb;
     margin: 30px;
@@ -617,11 +614,11 @@ details {
     border-radius: 10px;
 }
 
-details[open]{
+.seccion_preguntas_sobre_mi__summary[open]{
     padding: 0 20px;
 }
 
-summary{
+.seccion_preguntas_sobre_mi__summary{
     font-family: Adrian-Titulos-Gruesos;
     color: #ededed;
     background-color: #005a;
