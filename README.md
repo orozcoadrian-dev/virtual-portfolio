@@ -1,41 +1,66 @@
-![image alt](https://github.com/orozcoadrian-dev/virtual-portfolio/blob/6980427fba34ea82d526dad6a0048a4f821b22f2/virtual_portfolio_banner.png)
+![image alt](https://github.com/orozcoadrian-dev/virtual-portfolio/blob/5ba4c21461bb372e0fd20fda5e7d6a536efe320c/adrian-virtual-portafolio-banner.png)
 
-📌 Personal Portfolio Website
-This is a static personal portfolio website built using HTML. The purpose of this project is to practice and reinforce fundamental web development concepts, focusing on clean structure, semantic elements, and user-friendly content organization.
+# Personal Portfolio
 
-🚀 About the Project
+This project is a personal portfolio website designed to present my technical background, projects, and professional development in a structured and accessible way. The website serves as a centralized space where visitors can explore my work, learn about my skills, and follow my growth as a Systems Engineering student with a strong interest in software engineering and backend development.
 
-This portfolio represents a basic yet structured approach to showcasing personal information, skills, and projects. It was developed as part of my learning journey in web development, starting from scratch and progressively applying new concepts.
+The project was developed with an emphasis on semantic structure, maintainability, and clarity. Rather than focusing solely on visual presentation, the website prioritizes clean organization of information and a logical content hierarchy, providing an intuitive browsing experience while following good web development practices.
 
-The site emphasizes:
+---
 
-1. Clear and semantic HTML structure
-2. Organized content sections
-3. Readability and simplicity
-4. Practical use of HTML elements
+# Project Overview
 
-🛠️ Technologies Used
-1. HTML5
-2. (Optional) CSS3 for styling
-3. Google Fonts for typography
+The portfolio is organized into sections that present relevant professional information, including a personal introduction, technical skills, featured projects, and contact details. Every section has been structured to communicate information clearly while maintaining consistency throughout the website.
 
-🎯 Learning Objectives
+The project reflects my approach to software development: building solutions that are organized, understandable, and maintainable before adding additional complexity.
 
-This project was created to:
+---
 
-1. Understand and apply semantic HTML
-2. Improve content structuring skills
-3. Practice building real-world layouts
-4. Learn how to organize a simple portfolio website
-5. Prepare for future integration of CSS and JavaScript
+# Technologies
 
-📈 Future Improvements
-1. Add responsive design using CSS
-2. Improve visual styling and layout
-3. Include JavaScript for interactivity
-4. Optimize accessibility and performance
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
 
---- 👨‍💻 Author ---
- * Adrián Orozco
-* Systems Engineering Student
-* Cartagena, Colombia
+---
+
+# Key Features
+
+- Semantic HTML structure
+- Responsive user interface
+- Organized project presentation
+- Technical skills overview
+- Clean and maintainable codebase
+- Modern visual design
+
+---
+
+# Project Goals
+
+The primary objective of this portfolio is to establish a professional online presence while demonstrating the practical application of front-end development fundamentals. It also serves as a foundation that will continue evolving as I expand my technical knowledge and complete more software engineering projects.
+
+The website is intended to grow alongside my experience, incorporating new technologies, projects, and improvements over time while maintaining a consistent and professional presentation.
+
+---
+
+# Future Improvements
+
+The project is under continuous development. Future updates include:
+
+- Improved responsiveness across additional devices
+- Performance and accessibility optimization
+- Enhanced user interface and animations
+- Integration of additional JavaScript functionality
+- Expansion of the projects section
+- Continuous refinement of code quality and maintainability
+
+---
+
+# Author
+
+**Adrián Orozco**
+
+Systems Engineering Student
+
+Focused on Backend Development, Software Architecture and Information Systems.
